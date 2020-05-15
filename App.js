@@ -35,8 +35,9 @@ class UI extends Product {
         productList.appendChild(element);
         this.resetForm();
     }
-    showMessage(message, cssClass) {
 
+
+    showMessage(message, cssClass) {
         //recibir valores de message o cssClass de forma implicita o explicita
         const newCssClass = cssClass || this.cssClass;
         const newMessage = message || this.message;
