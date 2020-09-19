@@ -1,0 +1,26 @@
+{
+  "name": "javascript-products-app-oop",
+  "version": "1.0.0",
+  "description": "![](docs/screenshot.png)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "live-server src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaztWeb/javascript-products-app-oop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaztWeb/javascript-products-app-oop/issues"
+  },
+  "homepage": "https://github.com/FaztWeb/javascript-products-app-oop#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
