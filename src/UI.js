@@ -1,6 +1,11 @@
-// UI Constructor
+/**
+ * User Interface Class
+ */
 export class UI {
-  // Add a new Product
+  /**
+   * Add a New Product 
+   * @param {Object} product A new product Object
+   */
   addProduct(product) {
     const productList = document.getElementById("product-list");
     const element = document.createElement("div");
@@ -17,6 +22,9 @@ export class UI {
     productList.appendChild(element);
   }
 
+  /**
+   * Reset Form Values
+   */
   resetForm() {
     document.getElementById("product-form").reset();
   }
